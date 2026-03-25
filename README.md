@@ -6,7 +6,7 @@ create() is used to build a global store in Zustand. It initializes the state an
 
 2. What is selective subscription?
 
-Selective subscription means accessing only specific pieces of state from the store instead of the entire store. For example:
+Selective subscription means accessing only specific pieces of state from the store instead of the entire store. 
 
 const count = useCounterStore((state) => state.count);
 
